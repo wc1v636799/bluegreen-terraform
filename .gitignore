@@ -1,0 +1,16 @@
+# Local Terraform state and provider cache
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+
+# Plan output
+*.plan
+
+# Editor and OS noise
+.idea/
+.vscode/
+.DS_Store
